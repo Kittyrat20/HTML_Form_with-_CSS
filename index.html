@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>htmlformwithcss</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -61,25 +64,20 @@
                 <input type="checkbox" name="Summer" id="Summer">
             </label>
         </div>
-        <div class="unamePassword2">
-            <label>
-                User Name
-                <input type="text" name="username" id="username" placeholder="Username" required>
-            </label>
-        </div>
         <div class="dayNight">
             Do you prefer Nightime or Daytime
             <label>
                 Night
-                <input type="text" name="username" id="username" placeholder="Username" required>
+                <input type="radio" name="preference" id="night" value="Night">
             </label>
             <label>
                 Day
                 <input type="radio" name="preference" id="day" value="Day">
             </label>
         </div>
-        <div id="faveDay">
-            <label for-="faveDay">Favorite Weekday</label>
+        <div>
+            <label for="faveDay">Favorite Weekday</label>
+            <br>
             <select name="faveDay" id="faveDay" multiple>
                 <option value="Monday">Monday</option>
                 <option label="Tuesday" value="Tuesday"></option>
@@ -89,12 +87,6 @@
                 <option value="Saturday">Saturday</option>
                 <option value="Sunday">Sunday</option>
             </select>
-        </div>
-        <div class="unamePassword2">
-            <label>
-                Password
-                <input type="password" name="password" id="password" placeholder="Password" required>
-            </label>
         </div>
         <div>
             <textarea name="opinion" id="opinion">Tell us what you think</textarea>
@@ -114,7 +106,7 @@
             <button type="submit">Submit</button>
         </div>
     </form>
-    <div>
+    <div id="url">
         <form action="results.html" method="GET" enctype="multipart/form-data">
             <input type="file" name="fileUpload" id="fileUpload">
         </form>

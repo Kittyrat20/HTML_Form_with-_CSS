@@ -1,3 +1,6 @@
+* {
+    font-family: "Source Code Pro", monospace;
+}
 div {
     padding: 30px;
     text-align: center;
@@ -5,7 +8,8 @@ div {
 }
 
 .namePassword {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
@@ -20,7 +24,8 @@ div {
 }
 
 .genInfo {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #ecf6eb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
@@ -28,7 +33,8 @@ div {
 }
 
 .favSeason {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f6ebeb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
@@ -36,15 +42,8 @@ div {
 }
 
 .Results {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-}
-
-.unamePassword2 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f6ebeb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
@@ -52,15 +51,12 @@ div {
 }
 
 .dayNight {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f6f1eb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
     flex-direction: column;
-}
-
-#faveDay {
-
 }
 
 #phoneNumber {
@@ -69,4 +65,13 @@ div {
     flex-direction: column;
     width: 30%;
     margin: 0 auto;
+}
+
+#url {
+    background-color: #f1e8f6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
