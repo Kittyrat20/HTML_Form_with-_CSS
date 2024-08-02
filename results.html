@@ -5,20 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>results</title>
-    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="Results">
     </div>
-    
-    <a href="index.html">Back to Form</a>
-    <script>
-        const resultsList = document.getElementById('Results')
-        new URLSearchParams(window.location.search).forEach((name, password) => {
-            resultsList.append(`${name}: ${password}`)
-            resultsList.append(document.createElement('br'))
-        })
-    </script>
+    <div id="#formReturn">
+        <a href="index.html">Back to Form</a>
+        <script>
+            const resultsList = document.getElementById('Results')
+            new URLSearchParams(window.location.search).forEach((name, password) => {
+                resultsList.append(`${name}: ${password}`)
+                resultsList.append(document.createElement('br'))
+            })
+        </script>
+    </div>
 </body>
 
 </html>

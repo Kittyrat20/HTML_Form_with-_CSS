@@ -41,9 +41,9 @@ div {
     flex-direction: column;
 }
 
-.Results {
-    background-color: #f6ebeb;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+#Results {
+    background-color: #b7eaff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
     transition: 0.3s;
     font-size: 18px;
     display: flex;
@@ -67,6 +67,23 @@ div {
     margin: 0 auto;
 }
 
+#genInfo2 {
+    background-color: #f1e8f6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+#genInfo2inner {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
 #url {
     background-color: #f1e8f6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
@@ -74,4 +91,8 @@ div {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+}
+
+#formReturn {
+    text-align: center;
 }

@@ -75,35 +75,33 @@
                 <input type="radio" name="preference" id="day" value="Day">
             </label>
         </div>
-        <div>
-            <label for="faveDay">Favorite Weekday</label>
-            <br>
-            <select name="faveDay" id="faveDay" multiple>
-                <option value="Monday">Monday</option>
-                <option label="Tuesday" value="Tuesday"></option>
-                <option value="Wednesday">Wednesday</option>
-                <option value="Thursday">Thursday</option>
-                <option value="Friday" selected>Friday</option>
-                <option value="Saturday">Saturday</option>
-                <option value="Sunday">Sunday</option>
-            </select>
-        </div>
-        <div>
-            <textarea name="opinion" id="opinion">Tell us what you think</textarea>
-        </div>
-        <div>
-            <label for="url">URL</label>
-            <input type="url" name="webUrl" id="webUrl" />
-        </div>
-        <div>
-            <label for="favecolor">Favorite Color</label>
-            <input type="color" name="favecolor" id="favecolor">
-        </div>
-        <input type="hidden" name="sessionId" id="sessionId"
-               value="secretRandomNumberUsedtoManageTheSession">
-        <div>
-            <button type-="reset">Reset</button>
-            <button type="submit">Submit</button>
+        <div id="genInfo2">
+            <div id="genInfo2inner">
+                <label for="faveDay">Favorite Weekday</label>
+                <br>
+                <select name="faveDay" id="faveDay" multiple>
+                    <option value="Monday">Monday</option>
+                    <option label="Tuesday" value="Tuesday"></option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday" selected>Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+                <textarea name="opinion" id="opinion">Tell us what you think</textarea>
+
+                <label for="url">URL</label>
+                <input type="url" name="webUrl" id="webUrl" />
+
+                <label for="favecolor">Favorite Color</label>
+                <input type="color" name="favecolor" id="favecolor">
+
+                <input type="hidden" name="sessionId" id="sessionId"
+                       value="secretRandomNumberUsedtoManageTheSession">
+
+                <button type-="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
         </div>
     </form>
     <div id="url">
