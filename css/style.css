@@ -1,0 +1,72 @@
+div {
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.namePassword {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.resetSubmit {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 4%;
+    margin: 0 auto;
+}
+
+.genInfo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.favSeason {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Results {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.unamePassword2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dayNight {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+#faveDay {
+
+}
+
+#phoneNumber {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
